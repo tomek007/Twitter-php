@@ -1,0 +1,409 @@
+
+*{ margin: 0px; padding: 0; font-family: sans-serif;}
+
+table {
+    width: 700px;
+    margin-top: 5px;
+}
+
+.tweet {
+    background-color: #E4F3F6;
+    padding: 10px;
+    font-family: gothic, sans-serif;
+    font-size: 15px;
+}
+
+.user {
+    text-align: left;
+    font-size: 13px;
+    font-family: gothic, sans-serif;
+    color: #2E5D8A;
+    font-weight: bold;
+
+}
+
+.date {
+    text-align:right;
+    font-size: 11px;
+    color: #2E5D8A;
+    font-weight: bold;
+}
+
+.tweets {
+    float: left;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.comment {
+    margin-left: 15px;
+    font-style: italic;
+    padding: 3px;
+    font-size: 10px;
+    width: 520px;
+    list-style: none;
+
+}
+
+
+li:before { 
+    content: " \2192";
+    position: relative;
+}
+
+.loginPanel {
+    width: 1018px;
+    height: 100px;
+    margin: auto;
+    background-color: #6AA7CD;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registerPanel {
+    width: 300px;
+    height: 600px;
+    float: right;
+    background-color: #FBBC27;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.UserPanel{
+    width: 300px;
+    height: 600px;
+    float: right;
+    background-color: #3CB45A;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.mainPanel {
+    width: 1018px;
+    height: 900px;
+    margin: auto;
+    padding-top: 0px;
+}
+
+.login-form {
+    margin-top: 5px;
+    text-align: center;
+
+
+
+}
+
+.loginbutton {
+    width: 360px;
+    padding: 4px;
+
+}
+
+.logininput {
+    width: 150px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin: auto;
+    text-align: center;
+    font-family: gothic, sans-serif;
+    color: #2E5D8A;
+    font-weight: normal;
+    margin-top:10px;
+}
+
+.register-info{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.registerbutton {
+    width: 170px;
+    padding: 4px;
+}
+
+.top {
+    margin-top: 28px;
+    padding: 4px;
+    width: 150px;
+}
+
+.errorInfo {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: red;
+    font-size: 16px;
+    background-color: pink;
+}
+
+.tweetForm{
+    margin-top: 10px;
+    padding: 4px;
+    width: 650px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.tweetType{
+    margin: auto;
+    padding: 5px;
+}
+
+.tweetSend {
+    width: 100px;
+    font-family: gothic, sans-serif;
+    color: #2E5D8A;
+    font-weight: bold;
+    padding: 4px;
+
+}
+
+.commentForm {
+    text-align: center;
+}
+
+.commentText {
+    width: 250px;
+    height: 15px;
+}
+
+.commentButton {
+    width: 100px;
+}
+
+.logout {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-info {
+    width: 337px;
+    height: 100px;
+    float: left;
+    text-align: center;
+
+}
+
+img {
+    padding: 1px;
+    height: 90px;
+    width: 80px;
+    margin-top: 2px
+}
+
+.loggedName {
+    padding: 3px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.logoutButton{
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6AA7CD;
+    border: solid white 3px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.messageButton{
+
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    background-image: url(images.png);
+    background-size: contain;
+    border-radius: 100px;
+}
+
+.message {
+    width: 500px;
+    height: 100px
+}
+
+
+
+a:link, a:visited, a:hover a:active {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+.userLi:hover, .userLi:active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tweetsByuser {
+    width: 700px;
+    float:left;
+    margin-top: 20px;
+}
+
+.userPanelinfo {
+    font-family: gothic, sans-serif;
+    font-weight: bold;
+    margin-top:25px;
+    padding-top: 20px;
+    margin:auto;
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+}
+
+.userPanellist{
+    font-family: gothic, sans-serif;
+    margin-top:10px;
+    text-align: center;
+    color:white;
+    padding: 5px;
+}
+
+.userLi {
+    padding: 5px;
+    list-style: none;
+}
+
+.userLi:before { 
+    content: " ";
+    position: relative;
+}
+
+.newPass {
+
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 20px;
+    width: 700px;
+
+}
+
+.newPassLi{
+    padding: 10px;
+    list-style: none;
+    background: #FBBC27;
+    width: 500px;
+    margin: auto;
+    border: solid white 1px;
+    border-radius: 10px;
+
+
+}
+
+.newPassLi:before{
+    content: " ";
+}
+
+.msgName {
+    width: 360px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.msgText {
+    width: 360px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+
+.msgDate {
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    float: right;
+    margin-top: -80px;
+    border-radius: 10px;
+    border-radius: 0px;
+    font-size: 14px;
+
+}
+
+
+.messages{
+    width: 700px;
+    height: 600px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: left;
+
+
+}
+
+.priv{
+    margin-top: 20px;
+    height: 80px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.yellow{
+    font-family: gothic, sans-serif;
+    background-color: #f6f6f6 ;
+
+
+}
+
+.black {
+    font-family: gothic, sans-serif;
+    background-color: #E4F3F6;
+}
+
+.datemessage {
+    margin-top: 20px;  
+    text-align: center;
+    font-family: gothic, sans-serif;
+    color: #2E5D8A;
+    font-weight: bold;
+}
+
+.datemessage2{
+    margin-top: 20px;  
+    text-align: center;
+    font-family: gothic, sans-serif;
+    font-weight: bold;
+
+}
+
+.inbox{
+    text-align: center;
+    font-family: gothic, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+.sendername{
+    padding: 10px;
+    color:#324495;
+}
+
+.sendername2 {
+    padding: 10px;
+}

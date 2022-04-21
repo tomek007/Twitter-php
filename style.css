@@ -1,0 +1,32 @@
+.loginPanel{
+background-color: #6AA7CD;
+}
+
+.registerPanel {
+background-color: #FBBC27;
+}
+
+.tweetPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.tweet {
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.comments-list{
+    list-style: none;
+}
+
+.font-comment {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.image {
+    padding-right: 15px;
+    
+}

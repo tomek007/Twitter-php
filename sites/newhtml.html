@@ -1,0 +1,19 @@
+<div class="UserPanel">
+    <h3 class="userPanelinfo">profile</h3>
+    <ul class="userPanellist">
+        <li class="userLi"><a href="myTweets.php">my tweets
+                <?php $amountTweet=Tweet::loadAllTweetsByUserId($conn, 
+                $_SESSION['id']); echo '('.count($amountTweet).')'; ?></a>
+        </li>
+        <li class="userLi"><a href="myCommentedTweets.php">commented tweets</a><?php 
+            $amountTweetCommented=Tweet::loadAllCommentaedTweetsByUser($conn, $_SESSION['id']); 
+            echo '('.count($amountTweetCommented).')'; ?></li>
+        <li class="userLi">messages</li>
+    </ul>
+    <h3 class="userPanelinfo">settings</h3>
+    <ul class="userPanellist">
+        <li class="userLi">set new password</li>
+        <li class="userLi">set new name</li>
+        <li class="userLi">set new email</li>
+    </ul>
+</div>
